@@ -1,0 +1,98 @@
+#header{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 12px 0;
+  }
+  
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(assets/_img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contenedor-form{
+  background-color: #0a1e35;
+  border-radius: 20px;
+  padding: 40px;
+  opacity: 0.9;
+  height: 500px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin-left: 110px;
+}
+
+h2{
+  text-align: center !important;
+  color: white !important;
+}
+
+input{
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.checkbox-form{
+  width: 15px !important;
+  height: 15px !important;
+  display: inline !important;
+}
+
+label{
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.contrasena-olvidada{
+  color: white  !important;
+  text-decoration: none !important;
+  margin-left: 45px !important;
+}
+
+.boton{
+  width: 150px;
+  border-radius: 15px;
+  background-color: #1E1E92;
+  color: white;
+  margin-top: 50px;
+  border: none;
+  border-bottom: 4px solid black;
+  margin-left: 80px;
+}
+
+.contrasena-olvidada:hover{
+  color: #1E3F92;
+}
+
+label:hover{
+  color: #1E3F92;
+}
+
+.boton:active{
+  background-color: #1E3F92;
+  width: 145px;
+}
+

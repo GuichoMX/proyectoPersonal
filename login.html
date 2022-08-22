@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis propiedades</title>
+    <title>Login</title>
+    <link rel="icon" href="assets/_img/candado.png">
     <link href="navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="misPropiedades.css">
+    <link href="login.css" rel="stylesheet">
+
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
@@ -26,15 +29,31 @@
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#acercaDe">Acerca de</a></li>
-          <li><a class="nav-link scrollto active" href="misPropiedades.html">Mis propiedades</a></li>
+          <li><a class="nav-link scrollto" href="misPropiedades.html">Mis propiedades</a></li>
           <li><a class="nav-link scrollto" href="#services">Usuarios</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Contratos</a></li>
           <li><a class="nav-link scrollto" href="#contacto">Contacto</a></li>
-          <li><a class="nav-link scrollto" href="login.html">Log in</a></li>
+          <li><a class="nav-link scrollto active" href="login.html">Log in</a></li>
         </ul>
       </nav>
     </div>
   </header>
+<main>
+    <div class="contenedor-login">
+      <div class="contenedor-form">
+          <img src="assets/_img/candado.png" alt="imagen de candado">
+          <h2>Iniciar Sesion</h2>
+          <form action="">
+              <input type="text" placeholder="Usuario">
+              <input type="password" placeholder="Password">
+              <input class="checkbox-form" type="checkbox" id="checkid">
+              <label for="checkid">Recuerdame</label>
+              <a class="contrasena-olvidada" href="#">Olvidaste tu contraseña?</a>
+              <input class="boton" type="submit" value="Iniciar Sesion">
+          </form>
+      </div>
+    </div>
+</main>
 
   <script src="assets/js/main.js"></script>
 </body>
