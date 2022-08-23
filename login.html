@@ -43,9 +43,9 @@
       <div class="contenedor-form">
           <img src="assets/_img/candado.png" alt="imagen de candado">
           <h2>Iniciar Sesion</h2>
-          <form action="">
-              <input type="text" placeholder="Usuario">
-              <input type="password" placeholder="Password">
+          <form id="formulario-login" method="POST">
+              <input type="text" placeholder="Usuario" required="">
+              <input type="password" placeholder="Password" required="">
               <input class="checkbox-form" type="checkbox" id="checkid">
               <label for="checkid">Recuerdame</label>
               <a class="contrasena-olvidada" href="#">Olvidaste tu contraseña?</a>
@@ -54,7 +54,8 @@
       </div>
     </div>
 </main>
-
-  <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
