@@ -11,7 +11,7 @@ $(window).ready(function(){
             data = JSON.parse(data);
 
             if(data == 'true'){
-                location.href = 'misPropiedades.html';
+                location.href = 'mainAdmin.html';
             } else{
                 swal.fire({
                     title: 'Error',
