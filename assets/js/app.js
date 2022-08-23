@@ -7,7 +7,8 @@ $(window).ready(function(){
         let usuario = $('#txt_usuario').val();
         let pass = $('#txt_contrasena').val();
 
-        $.post('../config/controlador.php', {usuario, pass}, function(data){
+        $.post('assets/config/controlador.php', {usuario, pass}, function(data){
+            data = JSON.parse(data);
             console.log(data);
         });
     })

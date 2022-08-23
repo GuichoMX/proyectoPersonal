@@ -6,6 +6,10 @@ header("Access-Control-Allow-Headers: X-Requested-With");
 $usuario = isset($_POST['usuario']) ? $_POST['usuario'] : '';
 $pass = isset($_POST['pass']) ? $_POST['pass'] : '';
 
-$data = file_get_contents('data.json');
+$data = json_decode(file_get_contents('data.json'));
 
-echo 'Hola mundo';
+if($data->usuario == $usuario){
+    echo 'Si existe'
+} else{
+    echo 'No existe'
+}
