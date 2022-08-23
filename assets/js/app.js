@@ -9,7 +9,17 @@ $(window).ready(function(){
 
         $.post('assets/config/controlador.php', {usuario, pass}, function(data){
             data = JSON.parse(data);
-            console.log(data);
+
+            if(data == 'true'){
+                location.href = 'misPropiedades.html';
+            } else{
+                swal.fire({
+                    title: 'Error',
+                    icon: 'error',
+                    text: data
+                });
+            }
+            
         });
     })
     
