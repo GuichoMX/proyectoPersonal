@@ -68,13 +68,14 @@
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px;
   margin: 20px;
-  height: 200px;
+  height: 250px;
 }
 
 .propiedades .propiedades-caja .propiedades-params{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
 }
 
 .propiedades .propiedades-caja .casa-img{
@@ -82,8 +83,8 @@
   justify-content: center;
   align-content: center;
   height: 100%;
-  width: 13%;
-  padding: 20px;
+  width: 20%;
+  padding: 30px;
 }
 
 .propiedades .propiedades-caja .casa-img img{
@@ -98,7 +99,7 @@
   width: 100%;
 }
 
-.casa-contenido div{
+.casa-contenido .contenido-izquierda,.contenido-derecha{
   padding: 20px;
 }
 
@@ -113,6 +114,11 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+}
+
+.casa-contenido .contenido-izquierda .espacio{
+  margin-top: 20px;
+  height: 40px;
 }
 
 .casa-contenido .contenido-izquierda input{
@@ -130,4 +136,19 @@
 
 .casa-contenido .contenido-derecha input{
   width: 100%;
+}
+
+.btnEdicion{
+  margin-top: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.btnEdicion a{
+margin: 0 20px;
+color: #1E1E92;
+}
+
+.btnEdicion iconify-icon{
+  color: #1E1E92;
 }
