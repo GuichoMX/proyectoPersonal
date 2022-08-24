@@ -52,7 +52,7 @@
     justify-content: center;
   }
 
-  .propiedades-caja {
+  .usuarios-caja {
     color: #444444;
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
     height: 100vw;
@@ -61,33 +61,36 @@
     padding: 50px;
   }
 
-.propiedades .contenido-propiedades {
+.usuarios .contenido-propiedades {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
   color: #444444;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px;
   margin: 20px;
-  height: 250px;
+  height: 200px;
 }
 
-.propiedades .propiedades-caja .propiedades-params{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-.propiedades .propiedades-caja .casa-img{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.usuarios .usuarios-caja .propiedades-params{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+  place-items:  center;
   height: 100%;
-  width: 20%;
-  padding: 30px;
 }
 
-.propiedades .propiedades-caja .casa-img img{
+.usuarios .usuarios-caja .usuario-img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 110px;
+  width: 150px;
+  align-self: center;
+}
+
+.usuarios .usuarios-caja .usuario-img img{
   height: 100%;
   width: 100%;
 }
@@ -105,28 +108,11 @@
 
 .casa-contenido label{
   margin: 5px;
-}
-
-.casa-contenido .contenido-izquierda{
-  width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-.casa-contenido .contenido-izquierda .espacio{
-  margin-top: 20px;
-  height: 40px;
-}
-
-.casa-contenido .contenido-izquierda input{
-  width: 100%;
+  width: auto;
 }
 
 .casa-contenido .contenido-derecha{
-  width: 30%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -142,6 +128,7 @@
   margin-top: 10px;
   padding: 0;
   text-align: center;
+  height: 30px;
 }
 
 .btnEdicion a{
