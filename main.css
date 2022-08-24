@@ -218,3 +218,58 @@
   flex-direction: row;
   justify-content: center;
 }
+
+/* Responsive Index */
+
+/* Version telefono */
+@media screen and (max-width:480px) {
+  .contacto .section-caja .contacto-params{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-contacto span {
+    position: absolute;
+    top: 30px;
+    color: #F0F0F0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+}
+
+/* Version tablet */
+@media screen and (max-width:768px) {
+  .contacto .section-caja .contacto-params{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-contacto span {
+    position: absolute;
+    top: 30px;
+    color: #F0F0F0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+}
+
+/* Version desktop */
+@media screen and (max-width:992px) {
+  .contacto .section-caja .contacto-params{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

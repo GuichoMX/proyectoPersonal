@@ -138,3 +138,27 @@
   color: #1E1E92;
   align-self: center;
 }
+
+/* Responsive usuarios */
+
+/* Version telefono */
+@media screen and (max-width:480px) {
+  .usuarios .usuarios-caja .propiedades-params{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    place-items:  center;
+    height: 100%;
+  }
+}
+
+/* Version tablet */
+@media screen and (max-width:768px) {
+  .usuarios .usuarios-caja .propiedades-params{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    place-items:  center;
+    height: 100%;
+  }
+}
