@@ -1,0 +1,131 @@
+body{
+    header{
+        background: rgba(0, 0, 0, 0.9);
+        padding: 12px 0;
+    }
+
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        div{
+            width: 80%;
+            height: 70px;
+            margin-top: 100px;
+            margin-left: 10%;
+            margin-right: 10%;
+            background: url("assets/_img/fondo.jpg") center;
+            background-size: cover;
+            div{
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                flex-direction: column;
+                text-align: center;
+                h1{
+                    margin: 0;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 56px;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+        }
+
+        div{
+            div{
+                color: #444444;
+                box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+                height: 100vw;
+                margin-left: 10%;
+                margin-right: 10%;
+                padding: 50px;
+                div{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+                    place-items:  center;
+                    height: 100%;
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-content: center;
+                        color: #444444;
+                        box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+                        padding: 20px;
+                        margin: 20px;
+                        height: 200px;
+                        div{
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            height: 110px;
+                            width: 150px;
+                            align-self: center;
+                            img{
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+
+                        div{
+                            display: flex;
+                            flex-direction: row;
+                            height: 100%;
+                            width: 100%;
+                            div{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-content: center;
+                                padding: 20px;
+                                form{
+                                    label{
+                                        margin: 5px;
+                                        width: auto;
+                                    }
+                                    input{
+                                        width: 100%;
+                                    }
+                                }
+                                div{
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    margin-top: 10px;
+                                    padding: 0;
+                                    text-align: center;
+                                    height: 30px;
+                                    a{  
+                                        display: flex;
+                                        color: #1E1E92;
+                                        align-self: center;
+                                        margin: 5px;
+
+                                        iconify-icon{
+                                            display: flex;
+                                            color: #1E1E92;
+                                            align-self: center;
+                                        }
+
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
+}

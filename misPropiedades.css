@@ -139,16 +139,24 @@
 }
 
 .btnEdicion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 10px;
   padding: 0;
   text-align: center;
 }
 
 .btnEdicion a{
-margin: 0 20px;
-color: #1E1E92;
+  display: flex;
+  align-self: center;
+  margin: 0 20px;
+  color: #1E1E92;
 }
 
 .btnEdicion iconify-icon{
+  display: flex;
+  align-self: center;
   color: #1E1E92;
+  margin-left: 5px;
 }

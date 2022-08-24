@@ -44,14 +44,6 @@
   
   /* Sección de usuarios */
 
-  section {
-    height: 100vw;
-    overflow: hidden;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-
   .usuarios-caja {
     color: #444444;
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -125,6 +117,9 @@
 }
 
 .btnEdicion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 10px;
   padding: 0;
   text-align: center;
@@ -132,10 +127,14 @@
 }
 
 .btnEdicion a{
-margin: 0 20px;
-color: #1E1E92;
+  display: flex;
+  color: #1E1E92;
+  align-self: center;
+  margin: 5px;
 }
 
 .btnEdicion iconify-icon{
+  display: flex;
   color: #1E1E92;
+  align-self: center;
 }
