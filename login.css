@@ -6,6 +6,7 @@
 main{
     margin: 0;
     padding: 0;
+    height: 100vh;
     box-sizing: border-box;
     background-image: url(assets/_img/fondo.jpg);
     background-position: center;
@@ -24,9 +25,10 @@ main{
 .contenedor-form{
   background-color: #0a1e35;
   border-radius: 20px;
-  padding: 40px;
+  padding: 20px;
   opacity: 0.9;
-  height: 500px;
+  height: 450px;
+  margin-top: 80px;
 }
 
 img{
