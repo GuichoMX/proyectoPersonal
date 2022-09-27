@@ -22,6 +22,7 @@ main{
 }
 
 .contenedor-form{
+  margin-top: 6%;
   background-color: #0a1e35;
   border-radius: 20px;
   padding: 40px;
