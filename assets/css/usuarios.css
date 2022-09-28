@@ -14,7 +14,7 @@ body main div {
   margin-top: 100px;
   margin-left: 10%;
   margin-right: 10%;
-  background: url("assets/_img/fondo.jpg") center;
+  background: url("assets/img/fondo.jpg") center;
   background-size: cover;
 }
 body main div div {
