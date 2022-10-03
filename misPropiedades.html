@@ -54,339 +54,389 @@
 
       <section id="propiedades" class="propiedades">
         <div class="propiedades-caja">
-          <div class="propiedades-params">
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+          <div class="propiedades-params" id="contenidoMain">
+
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 1" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 1" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit2" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 2" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 2" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Ocupado" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
 
 
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 3" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 3" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
 
               
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 4" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 4" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
-              
-
-              
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
-                </div>
-
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 5" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            </div>
               
 
               
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 5" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 6" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
               
 
               
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 6" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 7" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
               
 
               
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 7" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 8" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
+              
 
+              
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
 
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 8" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 9" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
 
 
-              <div class="contenido-propiedades">
-                <div class="casa-img">
-                  <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 9" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
                 </div>
 
-                <div class="casa-contenido">
-                  <div class="contenido-izquierda">
-                    <form action="">
-                      <label for="inNombre">Nombre</label>
-                      <input id="inNombre" type="text" placeholder="Mi propiedad 10" disabled>
-                      <label for="inDireccion">Dirección</label>
-                      <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
-                    </form>
-                    <div class="espacio">
-                      <a href=""></a>
-                    </div>
-                  </div>
-                  <div class="contenido-derecha">
-                    <form action="">
-                      <label for="inNombre">Usuario</label>
-                      <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
-                      <label for="inDireccion">Estado</label>
-                      <input id="inDireccion" type="text" placeholder="Disponible" disabled>
-                    </form>
-                    <div class="btnEdicion">
-                      <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a>
-                      <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a>
-                    </div>
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
                   </div>
                 </div>
               </div>
+            </div>
 
+
+            <div class="contenido-propiedades">
+              <div class="casa-img">
+                <img src="assets/img/Propiedades/casaimgPrueba.png" alt="Esta es una imagen de una casa">
+              </div>
+
+              <div class="casa-contenido">
+                <div class="contenido-izquierda">
+                  <form action="">
+                    <label for="inNombre">Nombre</label>
+                    <input id="inNombre" type="text" placeholder="Mi propiedad 10" disabled>
+                    <label for="inDireccion">Dirección</label>
+                    <input id="inDireccion" type="text" placeholder="sm 98 mz 16 lote 20 Residencial puerta del sol Calle 2" disabled>
+                  </form>
+                  <div class="espacio">
+                    <a href=""></a>
+                  </div>
+                </div>
+
+                <div class="contenido-derecha">
+                  <form action="">
+                    <label for="inNombre">Usuario</label>
+                    <input id="inUsuario" type="text" placeholder="Luis Escobedo Trenado" disabled>
+                    <label for="inDireccion">Estado</label>
+                    <input id="inDireccion" type="text" placeholder="Disponible" disabled>
+                  </form>
+                  <div class="btnEdicion">
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Ver más"> -->
+                    <!-- <input class="boton" id="btnSubmit" type="submit" value="Borrar"> -->
+                    <button class="boton" id="btnsubmit" type="submit">Ver más</button>
+                    <button class="boton" id="btnsubmit" type="submit">Borrar</button>
+                    <!-- <a href="">Ver más<iconify-icon icon="ant-design:plus-circle-filled" width="20" height="20"></iconify-icon></a> -->
+                    <!-- <a href="">Borrar<iconify-icon icon="fluent:delete-48-filled" width="20" height="20"></iconify-icon></a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -394,5 +444,6 @@
     </main>
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/misPropiedades.js"></script>
   </body>
 </html>
