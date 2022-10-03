@@ -139,6 +139,21 @@
   align-self: center;
 }
 
+.btnEdicion button{
+  margin: 0 2px;
+  width: 100px;
+  border-radius: 15px;
+  background-color: #1E1E92;
+  color: white;
+  border: none;
+  border-bottom: 4px solid black;
+}
+
+.boton:active{
+  background-color: #1E3F92;
+  width: 95px;
+}
+
 /* Responsive usuarios */
 
 /* Version telefono */
