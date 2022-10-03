@@ -155,9 +155,26 @@
   color: #1E1E92;
 }
 
-.btnEdicion iconify-icon{
+
+.btnEdicion button{
+  margin: 0 10px;
+  padding: 2px 10px;
+  width: 100px;
+  border-radius: 15px;
+  background-color: #1E1E92;
+  color: white;
+  border: none;
+  border-bottom: 4px solid black;
+}
+
+.boton:active{
+  background-color: #1E3F92;
+  width: 95px;
+}
+
+/* .btnEdicion iconify-icon{
   display: flex;
   align-self: center;
   color: #1E1E92;
   margin-left: 5px;
-}
+} */
