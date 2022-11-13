@@ -7,6 +7,8 @@ let pwdInput = document.getElementById('txt_contrasena')
 let button = document.getElementById('btnSubmit')
 
 const logIn = function(e){
+    console.log(usuario);
+    console.log(pass);
     e.preventDefault();
     if (correctEmail === emailInput.value && correctPwd === pwdInput.value){
         location.href = 'mainAdmin.html';

@@ -1,26 +1,12 @@
-$(window).ready(function(){
+import express from "express";
+import morgan from "morgan";
 
-    
-    $('#formulario-login').on('submit', function(e){
-        e.preventDefault();
+const app=express();
 
-        let usuario = $('#txt_usuario').val();
-        let pass = $('#txt_contrasena').val();
+// Settings
+app.set("port", 4000);
 
-        $.post('assets/config/controlador.php', {usuario, pass}, function(data){
-            data = JSON.parse(data);
+// Midlewares
+app.use(morgan("dev"));
 
-            if(data == 'true'){
-                location.href = 'mainAdmin.html';
-            } else{
-                swal.fire({
-                    title: 'Error',
-                    icon: 'error',
-                    text: data
-                });
-            }
-            
-        });
-    })
-    
-});
+export default app;
