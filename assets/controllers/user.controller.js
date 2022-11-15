@@ -1,11 +1,11 @@
 import { request, response } from "express";
 import { getConnection } from  "../database/database";
 
-const getLanguages= async (request, response)=>{
+const getUsers= async (request, response)=>{
     const connection = await getConnection();
-    const result = await connection.query('SELECT id_usuario,nombres,apellidoP,apellidoM from usuarios');
-    console.log(result);
-    response.json(result);
+    const [rows,fields] = await connection.query('SELECT id_usuario,nombres,apellidoP,apellidoM from usuarios');
+    console.log(rows);
+    response.json(rows);
 };
 
 const postUsuarios = async (request, response)=>{
@@ -14,5 +14,5 @@ const postUsuarios = async (request, response)=>{
 }
 
 export const methods = {
-    getLanguages
+    getUsers
 };
