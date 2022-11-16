@@ -11,6 +11,7 @@ app.set("port", 4000);
 
 // Midlewares
 app.use(morgan("dev"));
+app.use(express.json());
 
 // Routes
 app.use("/api/usuarios",languageRoutes);
