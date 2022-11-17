@@ -31,20 +31,15 @@ const getUser= async (request, response)=>{
 };
 
 const addUsers = async (request, response)=>{
-    // try{
-    //     const { id_usuario, nombres } = request.body;
-    //     console.log(id_usuario);
-    //     console.log(nombres);
-    //     const connection = await getConnection();
-    //     response.json("addUsers");
-    // } catch (error){
-    //     response.status(500);
-    //     response.send(error.message);
-    // }
+    const {id_usuario, nombres, apellidoP, apellidoM, edad, pais, ciudad, num_contacto, num_referencia} = request.body
+    const connection = await getConnection();
+    const [rows] = await connection.query('INSERT INTO usuarios (id_usuario, nombres, apellidoP, apellidoM, edad, pais, ciudad, num_contacto, num_referencia) VALUES (?, ?)', id_usuario, nombres, apellidoP, apellidoM, edad, pais, ciudad, num_contacto, num_referencia);
+    console.log(rows);
+    response.json(rows);
 
-    const {id_usuario, nombres} = request.body
-    const [rows] = await Pool.query('INSERT INTO usuarios (id_usuario, nombres, apellidoP, apellidoM, edad, pais, ciudad, num_contacto, num_referencia) VALUES (?, ?)', [id_usuario, nombres])
-    response.send({rows})
+    // const {id_usuario, nombres, apellidoP, apellidoM, edad, pais, ciudad, num_contacto, num_referencia} = request.body
+    // const [rows] = await Pool.query('INSERT INTO usuarios (id_usuario, nombres, apellidoP, apellidoM, edad, pais, ciudad, num_contacto, num_referencia) VALUES (?, ?)', [id_usuario, nombres, apellidoP, apellidoM, edad, pais, ciudad, num_contacto, num_referencia])
+    // response.send({rows})
 }
 
 const deleteUser= async (request, response)=>{

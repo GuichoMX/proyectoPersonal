@@ -10,22 +10,6 @@ const connection = createPool({
     password: config.password
 });
 
-// const connection = createPool({
-//     host: process.env.HOST,
-//     user: process.env.DBUSER,
-//     database: process.env.DATABASE,
-//     password: process.env.PASSWORD
-// })
-
-
-// const connection = createPool({
-//     host: 'localhost',
-//     user: 'root',
-//     database: 'proyectoPersonal',
-//     password: 'Diablitos12'
-// })
-
-
 const getConnection = () => {
     return connection;
 }
